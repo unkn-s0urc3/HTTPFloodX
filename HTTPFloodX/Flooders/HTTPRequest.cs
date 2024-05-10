@@ -29,7 +29,8 @@ namespace HTTPFloodX.Flooders
                 await client.DownloadStringTaskAsync(_url);
                 
                 // Display a message indicating that the HTTP request has been sent
-                Console.WriteLine($"Request {_requestNumber}: HTTP request sent: {_url}");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine($"Request flood: HTTP request sent: {_url}");
                 
                 // Return true to indicate successful sending of the request
                 return true;
@@ -37,7 +38,8 @@ namespace HTTPFloodX.Flooders
             catch (Exception ex)
             {
                 // If an exception occurs, display an error message
-                Console.WriteLine($"Request {_requestNumber}: Error sending HTTP request: {ex.Message}");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Request flood: Error sending HTTP request: {ex.Message}");
                 
                 // Return false to indicate failure in sending the request
                 return false;
