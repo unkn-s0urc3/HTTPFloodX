@@ -16,7 +16,7 @@ public class AsciiArt
                "│        May everyone be rewarded according to his deeds        │\n" +
                "├───────────────────────────────────────────────────────────────┤\n" +
                "│                                                               │\n" +
-               "│           Usage: program <targetUrl> <requestCount>            │\n" +
+               "│           Usage: program <targetUrl> <requestCount>           │\n" +
                "│                                                               │\n" +
                "├───────────────────────────────────────────────────────────────┤\n" +
                "│        Link: https://github.com/unkn-source/HTTPFloodX        │\n" +
