@@ -29,6 +29,7 @@ namespace HTTPFloodX.Flooders
                 await client.DownloadStringTaskAsync(_url);
                 
                 // Display a message indicating that the HTTP request has been sent
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"Request flood: HTTP request sent: {_url}");
                 
                 // Return true to indicate successful sending of the request
