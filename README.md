@@ -10,13 +10,18 @@ HTTPFloodX is a console application for performing an HTTP flood attack on a spe
     git clone https://github.com/unkn-source/HTTPFloodX.git
     cd HTTPFloodX
     ```
+2. **Build the project:**
 
-2. **Run the application:**
+    ```bash
+    dotnet build
+    ```
+    
+3. **Run the application:**
 
     You can run the application by specifying the target URL and the time (in seconds) for which the attack will be executed. For example:
 
     ```bash
-   HTTPFloodX.exe http://example.com/ 10
+   dotnet run http://example.com/ 10
     ```
     10 requests are sent to `http://example.com/`.
 
