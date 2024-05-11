@@ -21,7 +21,8 @@ HTTPFloodX is a console application for performing an HTTP flood attack on a spe
     You can run the application by specifying the target URL and the time (in seconds) for which the attack will be executed. For example:
 
     ```bash
-   HTTPFloodX.exe http://example.com/ 10
+    cd .\HTTPFloodX\bin\(Release/Debug)\net8.0\
+    HTTPFloodX.exe http://example.com/ 10    
     ```
     10 requests are sent to `http://example.com/`.
 
